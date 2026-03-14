@@ -1,0 +1,102 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Bagian bar navigasi*/
+/* Note : flex 1 biar posisi bisa pas*/
+.header{
+    background-color: rgb(209,244,255);
+    height: 30px;
+    font-weight: bold;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+}
+
+.header-left {
+    font-weight: bold;
+    flex: 1;
+}
+
+.header-center {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex: 1;
+}
+
+.header-center a {
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-right {
+    font-weight: bold;
+    text-align: right;
+    flex: 1; 
+}
+
+.detail{
+    margin: auto;
+    background-color: #ada9a9;
+    height: fit-content;
+    padding: 10px;
+    align-items: center;
+}
+
+.personalInfo{
+    width: 70%;
+    padding: 40px 20px 30px 20px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 20px;
+    height: fit-content;
+}
+.personalInfo_header{
+    text-align: center;
+}
+
+.personalInfo_body{
+    display: flex;
+    margin: auto;
+    padding: 0 20px 0 20px
+}
+.personalInfo_body img{
+    height: 350px;
+    width: auto;
+}
+.personalInfo_bodyL{
+    width: 30%;
+    margin-left: -30px;
+    justify-content: left;
+}
+.personalInfo_bodyR{
+    width: 70%;
+    margin: 0;
+    padding: 0 50px 0 15px ;
+    text-align: left;
+}
+
+/*Card Riwayat Pendidikan*/
+.crp-container{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.crp-content{
+    width: 60%;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+}

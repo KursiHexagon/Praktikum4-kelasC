@@ -1,0 +1,71 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fdf5e6;
+}
+
+body{
+    padding-top: 20px;
+    margin: auto;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 50%;
+    margin: auto;
+    margin-bottom: -20px;
+    height: 550px;
+    background-color: white;
+    border: 2px solid #8b4513;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+h1 ,h4, p{
+    color: #8b4513;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+.deskripsi{
+    color: #919191;
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table{
+    margin: auto;
+    margin-bottom: 20px;
+    padding: auto;
+    max-width:600px;
+    font-size: 15px;
+}
+table td{
+    /* border-style: dotted; */
+    text-align: left;
+}
+
+.titik-titik{
+    border-bottom:3px dotted black;
+    width: 300px;
+}
+
+hr{
+    width: 90%;
+    background-color: #8b4513;
+    margin-bottom: -10px;
+}
+
+.footer p{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
